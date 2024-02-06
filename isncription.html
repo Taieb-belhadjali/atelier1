@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>
+            <a href="file:///C:/Users/XPRISTO/Desktop/atelier1/acceuil.html">home</a>
+            <a>Projets et taches</a> 
+            <a>Listes employes</a>
+            <a href="C:\Users\XPRISTO\Desktop\atelier1\isncription.html">Inscription</a>
+        </p>
+        <hr>
+        <img src="C:\Users\XPRISTO\Desktop\atelier1\download.jpg" height="500">
+    </header>
+    <section>
+        <legend>Inscription au site</legend>
+        <p for=" nom">Nom:
+            <input type="text" id="nom" required="required" minlength="2" pattern="[A-Za-z]+" >
+        </p>
+        <p for=" Prenom">Prenom:
+            <input type="text" id="prenom" required="required" minlength="2" pattern="[A-Za-z]+" >
+        </p>
+        <p for=" email">Email:
+            <input type="email" id="email" required="required" >
+        </p>
+        <p for="Telephone">Telephone:
+            <input type="tel" id="tel" required="required" maxlength="8" minlength="8">
+        </p>
+        <p for="date de naissence">Date de naissence:
+            <input type="date" id="dateness" required="required">
+        </p>
+        <p for="mot de passe">Mot de passe:
+            <input type="password" id="password" required="required" minlength="8" maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])">
+        </p>
+        <br>
+        <button type="submit" onclick="verif()">Inscription</button>
+    </section>
+    <hr>
+    <footer>
+        <p>
+            Vous pouvez nous contacter par mail:
+            <a href="Taiebamine.Belhadjali@esprit.tn">contact@esprit.tn</a>
+        </p>
+        <p>Adresse: Ghazela, Tunis</p>
+    </footer>
+    <script src="validation.js"></script>
+</body>
+</html>
